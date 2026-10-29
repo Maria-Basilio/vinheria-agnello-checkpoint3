@@ -1,8 +1,6 @@
 
 # Vinheria Agnello - Checkpoint 03
 
-## Nome do projeto
-
 Vinheria Agnello - Sistema de Controle de Estoque
 
 ## Descrição do projeto
@@ -40,7 +38,7 @@ vinheria-agnello3/
         └── imgs/
 ```
 
-## Aluno(a)
+## Aluna
 
 Maria Eduarda Basilio
 
