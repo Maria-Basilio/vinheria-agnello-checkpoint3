@@ -46,6 +46,7 @@ Maria Eduarda Basilio
 
 ## GitHub Pages
 
+https://maria-basilio.github.io/vinheria-agnello-checkpoint3/
 
 ## Como executar o projeto
 
