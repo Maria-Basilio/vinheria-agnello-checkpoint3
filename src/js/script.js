@@ -66,7 +66,7 @@ function adicionarVinho(vinho) {
 
 // lista todos os vinhos forEach().
 function listarVinhos() {
-    console.log("\n===== LISTA COMPLETA DE VINHOS =====");
+    console.log(" LISTA COMPLETA DE VINHOS ");
 
     vinhos.forEach((vinho, indice) => {
         console.log(
@@ -84,7 +84,7 @@ function listarEstoqueBaixo() {
         (vinho) => vinho.estoque < 5
     );
 
-    console.log("\n===== VINHOS COM ESTOQUE ABAIXO DE 5 =====");
+    console.log(" VINHOS COM ESTOQUE ABAIXO DE 5 ");
 
     if (vinhosComEstoqueBaixo.length === 0) {
         console.log("Nenhum vinho está com estoque baixo.");
@@ -106,7 +106,7 @@ function calcularEstoqueTotal() {
         0
     );
 
-    console.log("\n===== ESTOQUE TOTAL DA VINÍCOLA =====");
+    console.log(" ESTOQUE TOTAL DA VINÍCOLA ");
     console.log(`Total de garrafas: ${totalEstoque}`);
 
     return totalEstoque;
@@ -117,7 +117,7 @@ function listarNomesEmCaixaAlta() {
         (vinho) => vinho.nome.toUpperCase()
     );
 
-    console.log("\n===== NOMES DOS VINHOS EM CAIXA ALTA =====");
+    console.log(" NOMES DOS VINHOS EM CAIXA ALTA ");
 
     nomesEmCaixaAlta.forEach((nome) => {
         console.log(nome);
